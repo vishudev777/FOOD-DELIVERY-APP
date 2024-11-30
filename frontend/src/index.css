@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: outfit;
+    scroll-behavior: smooth; /*smooth scrool SCROLL NOT WORKING*/
+}
+
+/*=============> hides scrollbar made by me */
+::-webkit-scrollbar {
+    width: 0;
+}
+/* <==================== */
+html,
+body {
+    min-height: 100vh;
+    /* scroll-behavior: smooth scrool; smooth scrool SCROLL NOT WORKING */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app {
+    width: 85%;
+    margin: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
