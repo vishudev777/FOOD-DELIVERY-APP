@@ -1,3 +1,99 @@
+/* .explore-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu h1 {
+    color: #333;
+    font-weight: 500;
+}
+.explore-menu-text {
+    max-width: 60%;
+    color: #333;
+    font-size: 1.1vw;
+}
+.explore-menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+    padding-top: 5px;
+} */
+
+/* .explore-menu-list::-webkit-scrollbar {
+    display: none;
+}
+
+.explore-menu-list-item img {
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.4s;
+    border: 1.5px solid #000;
+} */
+/* added by me below or clear*/
+
+/* .explore-menu-list-item img:hover {
+    transform: scale(1.09);
+    border: 1.5px solid #000;
+}
+.explore-menu-list-item p:hover {
+    color: blue;
+} */
+
+/* added by me upper or clear*/
+
+/* .explore-menu-list-item p {
+    margin-top: 10px;
+    color: blue;
+    font-size: max(1.4vw, 16px);
+    cursor: pointer;
+} */
+/* by me down */
+
+/* by me up */
+
+/* .explore-menu hr {
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.explore-menu-list-item .active {
+    border: 2px solid blue;
+    padding: 1px;
+}
+@media (max-width: 1050px) {
+    .explore-menu-text {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px) {
+    .explore-menu-list img {
+        width: 120px;
+        border: 1px solid blue;
+    }
+    .explore-menu-list p {
+        font-size: 19px;
+    }
+    .explore-menu p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .explore-menu {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+} */
+/* =================================================================== */
+
 .explore-menu {
     display: flex;
     flex-direction: column;
@@ -76,7 +172,7 @@
         font-size: 14px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .explore-menu-list img {
         width: 120px;
         border: 1px solid blue;
@@ -86,6 +182,9 @@
     }
     .explore-menu p {
         font-size: 20px;
+    }
+    .explore-menu-text {
+        font-size: 2rem;
     }
 }
 @media (max-width: 425px) {
