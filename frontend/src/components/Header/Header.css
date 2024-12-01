@@ -1,8 +1,7 @@
 .header {
     height: 45.5vw;
     margin: 30px auto;
-    background: url("C:/Study/FOOD-DEL-MAIN/FOOD-DEL/frontend/src/assets/frontend_assets/new_header_img.png")
-        no-repeat center center;
+    background: url("/new_header_img.png") no-repeat center center;
     background-size: cover;
     position: relative;
     border: 1px solid #000;
