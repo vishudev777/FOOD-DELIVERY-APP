@@ -203,7 +203,7 @@ Me UP
     top: 5px;
     width: 1626px;
     z-index: 1;
-    backdrop-filter: blur(10px); /* Apply blur for the frosted glass effect */
+    backdrop-filter: blur(8px); /* Apply blur for the frosted glass effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
     background: linear-gradient(
         to bottom,
